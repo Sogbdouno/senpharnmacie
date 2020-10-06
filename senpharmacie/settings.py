@@ -37,7 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'pharmacie',
+    'pharmacie.apps.PharmacieConfig',
+    'medicament.apps.MedicamentConfig'
+    'account.apps.AccountConfig',
 
 ]
 
